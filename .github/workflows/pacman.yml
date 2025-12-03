@@ -1,18 +1,21 @@
 name: Generate Pacman Contribution Graph
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */12 * * *"
-  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: abozantron/pacman-contribution-graph@main
+
+      - name: Generate Pacman
+        uses: abozantron/pacman-contribution-graph@main
         with:
           github_user_name: rafaelmatias-com-br
+
       - name: Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
