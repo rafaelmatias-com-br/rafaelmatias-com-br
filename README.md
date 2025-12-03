@@ -63,8 +63,9 @@ https://github.com/rafaelmatias-com-br/git-find
 
 ## 📊 Estatísticas do GitHub
 
-![Rafael GitHub Stats](https://github-readme-stats.vercel.app/api?username=rafaelmatias-com-br&show_icons=true&theme=dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rafaelmatias-com-br&layout=compact&theme=dark)
+![Rafael GitHub Stats](https://github-readme-stats.vercel.app/api?username=rafaelmatias-com-br&show_icons=true&theme=dark&cache_seconds=86400)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=rafaelmatias-com-br&layout=compact&theme=dark&cache_seconds=86400)
+
 
 ---
 
